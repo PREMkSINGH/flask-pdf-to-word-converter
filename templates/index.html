@@ -1,0 +1,28 @@
+<html>
+    <head><title>Convert pdf2docx</title>
+        <style>
+            body{
+                background-color:coral;}
+            h1{font-size:60px;
+               color: White;}
+            .choose{font-size:25px;
+                    background-color:blue;}
+            .convert{font-size:25px;
+                    background-color:green;}
+            .form{ margin-left:30%;
+                   width:50%;}
+        </style>
+
+    </head>
+    <body>
+        <br>
+        <h1 align='center'><u> <b>Pdf To Word Converter</b></u><h1/>
+        <br>
+        <div class='form'>
+        <form action='/convert' method='post' enctype='multipart/form-data'>
+            <input class='choose' type='file' name='pdf_file' accept='.pdf'>
+            <input class='convert' type='Submit' value='Convert'>
+        </form>  
+    </div>  
+    </body>
+</html>
